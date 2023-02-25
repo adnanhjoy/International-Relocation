@@ -1,0 +1,28 @@
+.logo {
+    height: 30px;
+    width: 100%;
+}
+
+.header-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0)), url(images/cover.jpg);
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title-size {
+    font-size: 65px;
+}
+
+.bg-custom {
+    background-color: aqua;
+}
+
+.text-custom {
+    color: aqua;
+}
+
+.box-color {
+    background-color: #1f342d;
+}
