@@ -79,7 +79,7 @@ body {
     border-radius: 0.375rem;
 }
 
-/* 
-.about-image {
-    margin-left: ;
-} */
+.testimonial-image {
+    height: 125px;
+    width: 125px;
+}
