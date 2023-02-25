@@ -27,19 +27,54 @@ body {
     color: aqua;
 }
 
+.bg-service {
+    background-color: #1f1f2b;
+}
+
 .box-color {
     background-color: #1f342d;
 }
 
 .service-cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/service-cover.jpg);
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.75), rgb(0, 0, 0)), url(images/service-cover.jpg);
 }
 
-.service-image {
+.service-image-1 {
     background-image: url(images/graphic.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 40vh;
     width: 100%;
+    border-radius: 0.375rem;
+}
+
+.service-image-2 {
+    background-image: url(images/service2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    border-radius: 0.375rem;
+}
+
+.service-image-3 {
+    background-image: url(images/service3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    border-radius: 0.375rem;
+}
+
+.service-image-4 {
+    background-image: url(images/service4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
+    border-radius: 0.375rem;
 }
