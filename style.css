@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .logo {
     height: 30px;
     width: 100%;
@@ -25,4 +29,17 @@
 
 .box-color {
     background-color: #1f342d;
+}
+
+.service-cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/service-cover.jpg);
+}
+
+.service-image {
+    background-image: url(images/graphic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 100%;
 }
